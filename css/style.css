@@ -3,18 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-.form {
-    background-color: red;
-    padding: 90px;
-    line-height: 30px;
-    text-align: center;
+.form-item {
+    padding: 20px;
+    font-size: 15px;
 }
-#result {
-    font-size: 50px;
+.ticket {
+    padding: 20px;
+    font-size: 15px;
 }
-.result::after {
-    content: "$";
-}
-#name {
-    font-size: 50px;
+.hidden {
+    display: none;
 }
